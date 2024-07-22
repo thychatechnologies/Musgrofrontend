@@ -1,0 +1,62 @@
+/* myswiper.css */
+
+.mySwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  width: 20px !important;
+  height: 20px !important;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  content: '';
+  display: block;
+  font-size: 21px !important;
+  background-color: #eaeaea;
+  color: black;
+  padding: 9px 15px;
+  border-radius: 50%;
+}
+
+.swiper-pagination {
+  display: none !important;
+}
+
+.swiper-button-next:hover:after,
+.swiper-button-prev:hover:after {
+  background-color: #5e843b;
+  /* Change to green with opacity on hover */
+  color: white;
+  transition: 0.3s;
+}
+
+/* Remove this unnecessary block */
+.swiper-compen:hover .swiper-button-next:after {
+  display: block !important;
+
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: #5e843b;
+  color: white;
+}

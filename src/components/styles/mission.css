@@ -1,0 +1,37 @@
+/* Styles for the Mission section cards */
+.missionSeccard {
+    border-radius: 50% !important; /* Circular border */
+    padding: 50px 40px; /* Padding inside the card */
+    text-align: center; /* Center the text */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Default shadow */
+    border: none; /* No border */
+    border-right: 8px solid #5e843b; /* Green right border */
+    margin-bottom: 20px; /* Space below each card */
+}
+
+.missionSeccard:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+}
+
+.icon-container {
+    display: flex; /* Flex container for icons */
+    justify-content: center; /* Center icons horizontally */
+    margin-bottom: 15px; /* Space below the icon */
+}
+
+.card-title {
+    text-align: center; /* Center the card title */
+    font-weight: bold; /* Bold card title */
+}
+
+.card-text {
+    text-align: center; /* Center the card text */
+}
+@media (max-width: 576px) {
+    .mission-cards{
+      display: flex;
+      justify-content: center;
+    }
+}

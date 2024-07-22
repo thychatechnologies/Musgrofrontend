@@ -1,0 +1,68 @@
+.our-partners {
+    width: 100%;
+    padding: 20px;
+}
+
+.mySwiperourpartners {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #f3f3f3;
+    padding: 50px 0px;
+}
+
+.mySwiperourpartners .myswipermusgro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.mySwiperourpartners .myswipermusgro.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.mySwiperourpartners .card {
+
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.myswipermusgro::after {
+    content: '';
+    /* Ensures the pseudo-element is rendered */
+    display: block;
+    /* Makes the pseudo-element a block-level element */
+    width: 2px;
+    /* Example width */
+    height: 100%;
+    /* Example height */
+    background-color: #f3f3f3;
+    /* Example background color */
+    position: absolute;
+    /* Positioning relative to the parent */
+    top: 0;
+    /* Example positioning */
+    left: -30px;
+    /* Example positioning */
+    border-radius: 50%;
+    /* Example border radius for a circle */
+    /* Other styles as needed */
+}
+
+
+.mySwiperourpartners .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.mySwiperourpartners .card-img-top {
+    border-radius: 10px;
+    object-fit: cover;
+}

@@ -1,0 +1,79 @@
+
+.nav-logos {
+  width: 220px;
+}
+
+.single-col {
+  flex: 1;
+  margin: 1em;
+}
+
+.single-banner {
+  position: relative;
+}
+
+.single-banner img {
+  width: 100%;
+  height: auto;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.category {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.title {
+  display: block;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.shop-link {
+  background-color: #007bff;
+  padding: 0.5em 1em;
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navMobi {
+  gap: 20px;
+}
+
+.navMobicons {
+  gap: 20px;
+}
+
+
+@media (max-width:390px) {
+  .nav-logos {
+    width: 170px;
+  }
+
+  .navMobi {
+    gap: 8px;
+  }
+
+  .navMobicons {
+    gap: 8px;
+  }
+}

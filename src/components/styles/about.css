@@ -1,0 +1,90 @@
+/* General Styles */
+.text-blk {
+    margin: 0;
+    padding: 5px;
+    line-height: 25px;
+}
+
+.text-blk.subHeadingText {
+    color: rgb(102, 102, 102);
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.exploreAbout {
+    border: 0;
+    padding: 10px 15px;
+    background-color: #5e843b;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.exploreAbout:hover {
+    background-color: #4a6d2b;
+}
+
+.aboutImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutImg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    
+    margin-top: 30px; /* Adjusted margin for spacing above the button */
+}
+.missionSection{
+    margin-top: 100px;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .exploreAbout {
+        font-size: 14px;
+    }
+
+    .aboutImg {
+        width: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+    .exploreAbout {
+        font-size: 12px;
+    }
+
+    .aboutImg {
+        width: 90%;
+    }
+}
+
+@media (max-width: 554px) {
+    .exploreAbout {
+        font-size: 14px;
+        width: auto; /* Allow button width to adjust to content */
+    }
+
+    .aboutImg {
+        width: 100%;
+    }
+    .missionSection{
+        margin-top: 80px;
+    }
+}

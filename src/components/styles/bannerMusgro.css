@@ -1,0 +1,201 @@
+/* General Styles */
+.carousel-caption-left {
+    left: 40px;
+    right: auto;
+    text-align: left;
+    top: 50%;
+    /* Vertically center align the caption */
+    transform: translateY(-50%);
+}
+
+.carousel-caption-left h3 {
+    font-size: 50px;
+    color: black;
+}
+
+.carousel-slideHead1 {
+    color: #5e843b;
+}
+
+.bannerBtn {
+    border: 0px;
+    padding: 10px 23px;
+    background-color: #5e843b;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.bannerBtnR {
+    border: 0px;
+    padding: 8px 15px;
+    background-color: #5e843b;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+    width: 100px !important;
+}
+
+.Banner-rightcnt {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.Banner-rightcnttwo {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+/* Customize carousel control icons */
+.carousel-control-icon {
+    color: black;
+    /* Ensure the icon color is black */
+    font-size: 1rem;
+    /* Adjust the size of the icons */
+    background-color: white;
+    /* Set background color to white */
+    border-radius: 50%;
+    /* Make the background circular */
+    padding: 15px 17px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.carousel-control-icon:hover {
+    background-color: #5e843b;
+    color: white;
+    transition: 0.8s;
+}
+
+.musgro-Container:hover .carousel-control-icon {
+    visibility: visible !important;
+    opacity: 1;
+}
+
+.bannersubImg {
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .carousel-caption-left {
+        left: 30px;
+        top: 50%;
+    }
+
+    .carousel-caption-left h3 {
+        font-size: 40px;
+    }
+
+    .Banner-rightcnt {
+        top: 40%;
+        left: 10px;
+    }
+
+    .Banner-rightcnt {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+
+
+
+
+    .banner-r {
+        width: 100%;
+    }
+
+    .banner-c {
+        padding: 0px;
+    }
+
+    .bannersubImg {
+        width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-caption-left {
+        left: 60px;
+        top: 50%;
+    }
+
+    .carousel-caption-left h3 {
+        font-size: 30px;
+    }
+
+    .Banner-rightcnt {
+        top: 23%;
+        left: 45px;
+    }
+
+    .Banner-rightcnttwo {
+        top: 23%;
+        left: 55px;
+    }
+
+    .bannerBtn,
+    .bannerBtnR {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption-left {
+        left: 70px;
+        top: 40%;
+    }
+
+    .carousel-caption-left h3 {
+        font-size: 25px;
+    }
+
+    .Banner-rightcnt {
+        top: 35%;
+        left: 20%;
+    }
+
+    .Banner-rightcnttwo {
+        top: 35%;
+        left: 20%;
+    }
+
+    .bannerBtn,
+    .bannerBtnR {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .bannersubImg {
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 402px) {
+    .carousel-caption-left {
+        left: 45px;
+        top: 40%;
+    }
+
+    .carousel-caption-left h3 {
+        font-size: 25px;
+    }
+
+    .Banner-rightcnt {
+        top: 18%;
+        left: 20%;
+    }
+
+    .Banner-rightcnttwo {
+        top: 18%;
+        left: 20%;
+    }
+
+
+}

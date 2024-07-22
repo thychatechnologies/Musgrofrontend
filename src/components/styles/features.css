@@ -1,0 +1,31 @@
+    .section {
+        position: relative;
+        display: flex;
+        vertical-align:middle;
+    }
+
+    .section::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 2px;
+        height: 60%;
+        background-color: #ddd;
+        margin-bottom: 20px;
+        
+    }
+
+    .section:first-child::after {
+        display: none;
+    }
+  
+    @media (max-width: 768px) {
+        .section::after{
+            display: none;
+        }
+        .featuresImg{
+            height:70px;
+            width: 70px;
+        }
+    }

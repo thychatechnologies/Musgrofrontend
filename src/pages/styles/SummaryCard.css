@@ -1,0 +1,145 @@
+.product-table {
+    margin-top: 20px;
+  }
+  
+  .product-table h2 {
+    margin-bottom: 20px;
+  }
+  
+  .product-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-table th, .product-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .product-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  .dashboard-container {
+    display: flex;
+  }
+  
+  .main-content {
+    margin-left: 250px;
+    padding: 20px;
+    width: calc(100% - 250px);
+  }
+  
+  .dashboard-home {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .summary-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .summary-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 23%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .summary-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .summary-card h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .summary-card p {
+    font-size: 28px;
+    margin: 10px 0 0;
+    color: #333;
+  }
+  
+  .charts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .chart-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 48%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .chart-card h4 {
+    margin: 0 0 15px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .recent-activities, .notifications {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .recent-activities h3, .notifications h3 {
+    margin-top: 0;
+  }
+  
+  .recent-activities ul, .notifications ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recent-activities ul li, .notifications ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .recent-activities ul li:last-child, .notifications ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .product-table {
+    margin-top: 20px;
+  }
+  
+  .product-table h2 {
+    margin-bottom: 20px;
+  }
+  
+  .product-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-table th, .product-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .product-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  

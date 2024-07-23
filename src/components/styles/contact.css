@@ -20,7 +20,7 @@
     border-radius: 4px;
     margin-bottom: 20px;
     padding: 12px;
-    font-size: clamp(15px, 1.5vw, 18px);
+    font-size: 14px;
 }
 
 .contact-links,
@@ -109,7 +109,8 @@
 }
 
 .submit-btn:hover {
-    transform: scale(1.1, 1.1);
+
+    background-color: #6a8e47 !important;
 }
 
 .contactSectionImg {
@@ -141,12 +142,19 @@
 }
 
 @media only screen and (max-width: 400px) {
-    .contact-title {
-        font-size: clamp(30px, 12vw, 60px);
+
+    .contactSeIcons {
+        left: 15%;
     }
 
     .links {
         padding-top: 30px;
+
+    }
+
+    .contactSectionImg {
+        height: 300px;
+        object-fit: cover;
     }
 
     .icon {

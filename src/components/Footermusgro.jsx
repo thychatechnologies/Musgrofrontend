@@ -84,7 +84,7 @@ function Footermusgro() {
             <p className=''> 2024 MusGro Made With  By Thycha Technologies .</p>
           </Col>
           <Col sm={6} className='d-flex justify-content-sm-end justify-content-center'>
-            <img className='h-50' src="./assets/icons/payment.png" alt="" />
+            <img className='payment-icons' src="./assets/icons/payment.png" alt="" />
           </Col>
         </Row>
       </Container>

@@ -34,7 +34,7 @@ function Bestproducts() {
                 </Col>
             </Row>
             <Row className="my-sm-4 my-3">
-                <Col className='d-flex justify-content-center gap-5'>
+                <Col className='d-flex justify-content-center gap-sm-5 gap-3'>
                     <Button
                         className={`productTdbbtn bg-white text-black border-0 ${activeTab === 'home' ? 'active' : ''}`}
                         onClick={() => setActiveTab('home')}

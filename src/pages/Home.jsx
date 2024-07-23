@@ -51,7 +51,7 @@ function Home() {
         <Bannermusgro />
       </div>
       <FeaturesSection />
-      {/* <Bestproducts /> */}
+      <Bestproducts />
       <Moreooffer />
       <MostPurchased />
       <Offersection />
